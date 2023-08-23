@@ -1,0 +1,13 @@
+{
+  "obsidian-prism-theme@@color-schemes-lt": "pt-color-scheme-latte-lt",
+  "obsidian-prism-theme@@accent-style-lt": "pt-accent-style-filled-lt",
+  "obsidian-prism-theme@@light-accent-color-preset": "pt-accent-color-blue-lt",
+  "obsidian-prism-theme@@highlight-text-accent-lt": "pt-highlight-text-accent-lt",
+  "obsidian-prism-theme@@light-mark-highlight-style": "pt-highlight-style-filled-lt",
+  "obsidian-prism-theme@@pt-fade-inactive-tabs": false,
+  "obsidian-prism-theme@@pt-disable-blur": false,
+  "obsidian-prism-theme@@pt-collapsed-pinned-tab": false,
+  "obsidian-prism-theme@@radius-s": 4,
+  "obsidian-prism-theme@@radius-m": 8,
+  "obsidian-prism-theme@@pt-icons-accent": false
+}

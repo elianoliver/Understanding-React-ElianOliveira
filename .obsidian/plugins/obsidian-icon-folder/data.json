@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasLaptopCode",
+      "FasCalculator",
+      "FasJoint",
+      "🖥",
+      "FasBookOpen"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true
+  },
+  "CAP 0 - Cidade de Combates Desorganizados": "FarBookmark",
+  "CAP 1 - Início do Ataque ao Avareza": "FarBookmark",
+  "CAP 2 - Canção da Cidade em Chamas": "FarBookmark",
+  "1 Imagens": "FarImages",
+  "2 Personagens": "FasPerson",
+  "SISTEMAS DISTRIBUIDOS": "FasLaptopCode",
+  "MARKETING DIGITAL": "FasJoint",
+  "ESTATÍSTICA E PROBABILIDADE": "FasCalculator",
+  "SISTEMAS DISTRIBUIDOS/ARQUIVOS": "FasBookOpen"
+}

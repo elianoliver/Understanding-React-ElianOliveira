@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "425b292bdfd64ced",
+    "type": "split",
+    "children": [
+      {
+        "id": "52f0da218ac05e1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10283657c40c0c20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/02 - TAGS BODY.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91768192536a0bb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/03 - TAGS TABELAS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c160a3e2fae5ba3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/04 - TAGS AUDIO VISUAIS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8e81cb36574ff6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/05 - UTILIZANDO CSS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d73e629ac5fbe9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "60d51a6074a08508",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "271a702203f418c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "75b2a302bf0086e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "28d4756e125003fd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9cbc89da39f34f0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1526ff61f8240fb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "254b26a756f077d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTML/05 - UTILIZANDO CSS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fc198067f6aae480",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTML/05 - UTILIZANDO CSS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d99d6d3262cd173e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a30f8e7e31994e8e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HTML/05 - UTILIZANDO CSS.md"
+              }
+            }
+          },
+          {
+            "id": "0c9e1fa24038f7fb",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Abrir visualização em gráfico": false,
+      "switcher:Abrir a troca rápida": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "b8e81cb36574ff6b",
+  "lastOpenFiles": [
+    "HTML/04 - TAGS AUDIO VISUAIS.md",
+    "HTML/05 - UTILIZANDO CSS.md",
+    "HTML/01 - TAGS BÁSICAS.md",
+    "HTML/02 - TAGS BODY.md",
+    "HTML/03 - TAGS TABELAS.md",
+    "GITHUB/LISTA DE COMANDOS.md",
+    "GITHUB/GIT COM TOKEN.md",
+    "GITHUB/GIT COM SSH.md",
+    "GITHUB/GIT COM GITHUB.md",
+    "HTML",
+    "INICIANDO/1 - INICIANDO COM GIT.md",
+    "GITHUB",
+    "DESFAZENDO ALTERAÇÕES.md",
+    "GIT e GITHUB/Sem título",
+    "GIT e GITHUB",
+    "MARKETING DIGITAL/FUNDAMENTOS DE MARKETING PT.1.md",
+    "SISTEMAS DISTRIBUIDOS/CONCEITOS INICIAIS.md",
+    "MARKETING DIGITAL/FUNDAMENTOS DE MARKETING PT.2.md",
+    "piramide.png",
+    "MARKETING DIGITAL 2653e56b0274477e9afe5ed7c7fa3326/Untitled.png.md",
+    "MARKETING DIGITAL 2653e56b0274477e9afe5ed7c7fa3326",
+    "MARKETING DIGITAL/Anexos/piramide.png",
+    "MARKETING DIGITAL/Anexos/Untitled.png",
+    "MARKETING DIGITAL/Anexos",
+    "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Anexos/Pervasivos.md",
+    "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Anexos",
+    "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Livros",
+    "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Livros/Sistemas Distribuídos - Princípios e Paradigmas.pdf",
+    "2023-08-13.md",
+    "SISTEMAS DISTRIBUIDOS/Kanban sem título.md",
+    "SISTEMAS DISTRIBUIDOS/ARQUIVOS",
+    "SISTEMAS DISTRIBUIDOS/LIVROS.md",
+    "Sistemas.md",
+    "S.md",
+    "().md",
+    "{CENTER}.md",
+    "EXPLANETA.md",
+    "um planeta é um planeta MUITO PIKA CHEIO DE PARADA OH MY GOD QUE PLANETA PIKA.md",
+    "ABLUBLUBLUEBLE.md"
+  ]
+}
