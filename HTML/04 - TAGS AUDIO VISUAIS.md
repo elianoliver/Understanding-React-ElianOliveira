@@ -46,7 +46,10 @@ Aqui, estamos embutindo um vídeo do YouTube usando uma tag `<iframe>`. O atribu
     <source src="assets/bad_to_the_bone.ogg" type="audio/ogg">
     Seu Navegador não é compatível com a tag Audio
 </audio>
-<p>download</p>
+
+<a href="caminho da musica" download>
+	<p>Download</p>
+</a>
 ```
 
 Neste exemplo, estamos incorporando um elemento de áudio. Os atributos e as tags utilizadas são semelhantes aos do vídeo, mas adaptados para áudio. Os elementos `<source>` especificam os diferentes formatos do áudio. A tag `<p>` cria um link de "download" (embora ele não funcione no exemplo fornecido).
