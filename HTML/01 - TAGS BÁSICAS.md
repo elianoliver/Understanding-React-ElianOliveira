@@ -7,7 +7,7 @@
 - [[#Imagens e Links]]
 - [[#Caminhos]]
 ## Estrutura Básica
-```markdown
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

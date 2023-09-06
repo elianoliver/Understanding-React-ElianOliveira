@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "52f0da218ac05e1a",
+        "id": "3803ade6dd2563bf",
         "type": "tabs",
         "children": [
           {
-            "id": "1ea414e959cfb014",
+            "id": "16292f784be71840",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/01 - BÁISCO CSS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2036f3e0a60aa6ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/02 - SELETORES CSS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "447cfd9c45af0440",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/02 - SELETORES CSS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f84576622e7998e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
+                "file": "CSS/14 - FLEXBOX.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
+                "file": "CSS/14 - FLEXBOX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
+                "file": "CSS/14 - FLEXBOX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/2.5 - PRÉ PROCESSADORES CSS.md"
+                "file": "CSS/14 - FLEXBOX.md"
               }
             }
           },
@@ -198,46 +158,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "271a702203f418c9",
+  "active": "16292f784be71840",
   "lastOpenFiles": [
+    "Pasted image 20230905225945.png",
+    "2023-09-05.md",
+    "Sem título.canvas",
+    "CSS/14 - FLEXBOX.md",
+    "img/align-content-center.png",
+    "img/flex-item-order.png",
+    "img/align-content-space-around.png",
+    "img/align-content-space-between.png",
+    "img/align-content-stretch.png",
+    "img/align-content-flex-end.png",
+    "img/align-content-flex-start.png",
+    "img/align-items-baseline.png",
+    "img/align-items-strech.png",
     "CSS/02 - SELETORES CSS.md",
-    "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
     "CSS/03 - BACKGROUND.md",
+    "CSS/04 - TEXTO.md",
+    "CSS/05 - CORES NO CSS.md",
+    "CSS/06 - FONTES NO CSS.md",
+    "CSS/07 - BOX MODEL.md",
+    "CSS/08 - LINKS NO CSS.md",
+    "CSS/09 - LISTAS NO CSS.md",
+    "CSS/10 - TABELAS NO CSS.md",
+    "CSS/11 - FILTROS NO CSS.md",
+    "CSS/12 - IFRAME.md",
+    "CSS/13 - VARIÁVEIS NO CSS.md",
+    "img",
+    "HTML/04 - TAGS AUDIO VISUAIS.md",
+    "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
     "CSS/01 - BÁISCO CSS.md",
-    "GITHUB/GIT COM GITHUB.md",
-    "GITHUB/GIT COM SSH.md",
     "GITHUB/LISTA DE COMANDOS.md",
-    "GITHUB/GIT COM TOKEN.md",
+    "GITHUB/GIT COM GITHUB.md",
     "HTML/01 - TAGS BÁSICAS.md",
     "HTML/02 - TAGS BODY.md",
+    "GITHUB/GIT COM TOKEN.md",
+    "GITHUB/GIT COM SSH.md",
     "HTML/03 - TAGS TABELAS.md",
-    "HTML/04 - TAGS AUDIO VISUAIS.md",
     "CSS",
     "HTML",
     "INICIANDO/1 - INICIANDO COM GIT.md",
     "GITHUB",
-    "DESFAZENDO ALTERAÇÕES.md",
     "GIT e GITHUB/Sem título",
     "GIT e GITHUB",
-    "MARKETING DIGITAL/FUNDAMENTOS DE MARKETING PT.1.md",
-    "SISTEMAS DISTRIBUIDOS/CONCEITOS INICIAIS.md",
-    "MARKETING DIGITAL/FUNDAMENTOS DE MARKETING PT.2.md",
-    "piramide.png",
-    "MARKETING DIGITAL 2653e56b0274477e9afe5ed7c7fa3326/Untitled.png.md",
     "MARKETING DIGITAL 2653e56b0274477e9afe5ed7c7fa3326",
-    "MARKETING DIGITAL/Anexos/piramide.png",
-    "MARKETING DIGITAL/Anexos/Untitled.png",
     "MARKETING DIGITAL/Anexos",
-    "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Anexos/Pervasivos.md",
     "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Anexos",
-    "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Livros",
-    "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Livros/Sistemas Distribuídos - Princípios e Paradigmas.pdf",
-    "2023-08-13.md",
-    "SISTEMAS DISTRIBUIDOS/Kanban sem título.md",
-    "SISTEMAS DISTRIBUIDOS/LIVROS.md",
-    "Sistemas.md",
-    "S.md",
-    "().md",
-    "{CENTER}.md"
+    "SISTEMAS DISTRIBUIDOS/ARQUIVOS/Livros"
   ]
 }

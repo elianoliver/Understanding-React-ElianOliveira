@@ -5,7 +5,7 @@
 - [[#BACKGROUND-POSITION]]
 - [[#BACKGROUND-REPEAT]]
 - [[#BACKGROUND-ATTACHMENT]]
-
+---
 ## BACKGROUND-COLOR
 O atributo `background-color` é amplamente utilizado em CSS para definir a cor de fundo de um elemento HTML. Essa propriedade é extremamente versátil e permite que você personalize a aparência de elementos, como caixas de texto, divs, parágrafos e mais. A seguir, explicaremos os diferentes modos de definir cores usando o atributo `background-color`, incluindo valores hexadecimais, nomes de cores, valores RGB, valores RGBA e a propriedade de opacidade.
 

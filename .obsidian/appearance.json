@@ -1,9 +1,11 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "cssTheme": "Sanctum",
+  "cssTheme": "Prism",
   "translucency": false,
   "nativeMenus": true,
   "showViewHeader": false,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "image-center"
+  ]
 }
