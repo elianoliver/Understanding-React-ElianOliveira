@@ -15,7 +15,8 @@ Quando utilizamos o _Flexbox_, é muito importante saber quais propriedades sã
 - [[#A Propriedade `flex-grow`]]
 - [[#A Propriedade `flex-shrink`]]
 - [[#A Propriedade `flex-basis`]]
-- 
+- [[#A Propriedade `flex`]]
+- [[#A Propriedade `align-self`]]
 
 
 ## A Propriedade `flex-direction`
@@ -237,7 +238,7 @@ Neste exemplo, `flex-item2` será exibido antes de `flex-item1`, apesar de `flex
 
 ## A Propriedade `flex-grow`
 A propriedade `flex-grow` é uma das propriedades principais do Flexbox, que permite controlar como os itens flexíveis dentro de um contêiner se expandem para ocupar o espaço disponível. Ela determina a quantidade de espaço extra que um item flexível pode ocupar em relação aos outros itens quando há espaço extra no contêiner.
-![[Pasted image 20230905225945.png|center|500]]
+![[flex-grow.png|center|500]]
 ### Utilização Básica
 A propriedade `flex-grow` aceita valores numéricos, que representam a proporção em que os itens flexíveis crescem em relação aos outros itens. O valor padrão é 0, o que significa que o item flexível não crescerá automaticamente para preencher o espaço adicional.
 
@@ -364,7 +365,7 @@ Por exemplo:
 }
 ```
 
-## Propriedade `flex`
+## A Propriedade `flex`
 A propriedade `flex` é uma propriedade abreviada em Flexbox que combina três propriedades principais: `flex-grow`, `flex-shrink`, e `flex-basis`. Ela é usada para controlar o comportamento de crescimento, encolhimento e tamanho base dos itens flexíveis em um contêiner flexível de uma só vez, proporcionando um controle flexível e compacto sobre o layout.
 
 ### Sintaxe
@@ -405,3 +406,44 @@ Além disso, você pode usar a propriedade `flex` com valores abreviados, como `
   flex: none; /* Não crescerá/encolherá, manterá o tamanho base padrão */
 }
 ```
+# A Propriedade `align-self`
+A propriedade `align-self` é uma propriedade CSS usada para controlar a alinhamento vertical de um item flexível (um filho de um contêiner flexível) dentro de um contêiner flexível. Ela permite que você ajuste individualmente o alinhamento vertical de um item em relação aos outros itens no mesmo contêiner, independentemente das configurações de alinhamento definidas para o contêiner pai.
+![[align-self.png|center|500]]
+
+### Utilização Básica
+A propriedade `align-self` aceita uma variedade de valores que determinam como um item flexível é alinhado verticalmente dentro do contêiner flexível. Alguns dos valores mais comuns incluem:
+
+- `flex-start`: Alinha o item no início do eixo vertical do contêiner (parte superior).
+- `flex-end`: Alinha o item no final do eixo vertical do contêiner (parte inferior).
+- `center`: Alinha o item verticalmente no centro do contêiner.
+- `baseline`: Alinha o item de acordo com a linha de base dos textos dos outros itens.
+- `stretch`: Estica o item verticalmente para ocupar todo o espaço disponível (valor padrão).
+
+Aqui está um exemplo de uso básico:
+
+```css
+.flex-container {
+  display: flex;
+}
+
+.flex-item1 {
+  align-self: flex-start;
+  /* Este item será alinhado no topo do contêiner */
+}
+
+.flex-item2 {
+  align-self: center;
+  /* Este item será alinhado no centro do contêiner */
+}
+
+.flex-item3 {
+  align-self: flex-end;
+  /* Este item será alinhado na parte inferior do contêiner */
+}
+```
+
+### Uso em Itens Individuais
+A propriedade `align-self` é aplicada a itens individuais dentro do contêiner flexível, o que significa que você pode controlar o alinhamento vertical de cada item separadamente. Isso é particularmente útil quando você deseja que alguns itens tenham um alinhamento diferente dos outros.
+
+## Combinando com `align-items`
+A propriedade `align-self` substitui a configuração de alinhamento vertical definida para um item pelo valor da propriedade `align-items` do contêiner pai. Isso permite que você controle o alinhamento vertical de um item individualmente, mesmo quando o contêiner pai tem uma configuração global de alinhamento.

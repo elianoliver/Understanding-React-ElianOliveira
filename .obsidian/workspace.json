@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/14 - FLEXBOX.md",
-                "mode": "source",
+                "file": "GITHUB/GIT COM GITHUB.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/14 - FLEXBOX.md",
+                "file": "GITHUB/GIT COM GITHUB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/14 - FLEXBOX.md",
+                "file": "GITHUB/GIT COM GITHUB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/14 - FLEXBOX.md"
+                "file": "GITHUB/GIT COM GITHUB.md"
               }
             }
           },
@@ -160,10 +160,13 @@
   },
   "active": "16292f784be71840",
   "lastOpenFiles": [
-    "Pasted image 20230905225945.png",
+    "GITHUB/LISTA DE COMANDOS.md",
+    "GITHUB/GIT COM GITHUB.md",
+    "CSS/14 - FLEXBOX.md",
+    "img/flex-grow.png",
+    "img/align-self.png",
     "2023-09-05.md",
     "Sem título.canvas",
-    "CSS/14 - FLEXBOX.md",
     "img/align-content-center.png",
     "img/flex-item-order.png",
     "img/align-content-space-around.png",
@@ -172,7 +175,6 @@
     "img/align-content-flex-end.png",
     "img/align-content-flex-start.png",
     "img/align-items-baseline.png",
-    "img/align-items-strech.png",
     "CSS/02 - SELETORES CSS.md",
     "CSS/03 - BACKGROUND.md",
     "CSS/04 - TEXTO.md",
@@ -189,8 +191,6 @@
     "HTML/04 - TAGS AUDIO VISUAIS.md",
     "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
     "CSS/01 - BÁISCO CSS.md",
-    "GITHUB/LISTA DE COMANDOS.md",
-    "GITHUB/GIT COM GITHUB.md",
     "HTML/01 - TAGS BÁSICAS.md",
     "HTML/02 - TAGS BODY.md",
     "GITHUB/GIT COM TOKEN.md",
