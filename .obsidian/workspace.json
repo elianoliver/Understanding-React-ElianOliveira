@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "52701cbf3d799abe",
+        "id": "92ecb029276a8734",
         "type": "tabs",
         "children": [
           {
-            "id": "ee14180f44cad260",
+            "id": "76e4a6978b630e75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/15 - GRID.md",
+                "file": "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "619be82404bb9c43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/16 - MEDIA QUERIES.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a6284f29790193e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/15 - GRID.md",
-                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/15 - GRID.md",
+                "file": "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/15 - GRID.md",
+                "file": "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/15 - GRID.md"
+                "file": "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md"
               }
             }
           },
@@ -186,38 +160,43 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:Abrir visualização em gráfico": false,
-      "switcher:Abrir a troca rápida": false,
-      "canvas:Criar novo canvas": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Abrir a troca rápida": false,
+      "templates:Inserir modelo": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "canvas:Criar novo canvas": false
     }
   },
-  "active": "7a6284f29790193e",
+  "active": "75b2a302bf0086e8",
   "lastOpenFiles": [
+    "JAVASCRIPT/01 - INTRODUÇÃO.md",
+    "JAVASCRIPT/02 - COMEÇANDO COM JS.md",
+    "GITHUB/LISTA DE COMANDOS.md",
+    "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
+    "NODE/01 - BÁSICO.md",
+    "2023-09-30.md",
+    "JAVASCRIPT",
+    "HTML/6.1 ELEMENTOS DO FORM.md",
+    "HTML/6.2 TIPOS DE INPUTS.md",
+    "HTML/06 - FORMULARIOS.md",
+    "CSS/15 - GRID.md",
     "CSS/16 - MEDIA QUERIES.md",
     "CSS/17 - CURSOR.md",
     "CURSOR.md",
-    "CSS/15 - GRID.md",
     "CSS/14 - FLEXBOX.md",
     "assets/images/grid/layout-padrao-grid.png",
     "assets/images/flexbox/align-content-center.png",
     "assets/images/grid",
     "assets/images/flexbox",
-    "HTML/6.1 ELEMENTOS DO FORM.md",
     "assets/images",
-    "HTML/6.2 TIPOS DE INPUTS.md",
-    "HTML/06 - FORMULARIOS.md",
     "HTML/05 - IFRAME.md",
     "GITHUB/GIT COM GITHUB.md",
-    "NODE/01 - BÁSICO.md",
     "NODE",
     "Sem títuloqweqwe.md",
     "teste",
-    "GITHUB/LISTA DE COMANDOS.md",
     "HTML/04 - TAGS AUDIO VISUAIS.md",
     "HTML/03 - TAGS TABELAS.md",
     "HTML/02 - TAGS BODY.md",
@@ -236,14 +215,9 @@
     "assets/images/flexbox/align-content-flex-start.png",
     "CSS/02 - SELETORES CSS.md",
     "CSS/03 - BACKGROUND.md",
-    "CSS/04 - TEXTO.md",
-    "CSS/05 - CORES NO CSS.md",
-    "CSS/06 - FONTES NO CSS.md",
-    "CSS/07 - BOX MODEL.md",
     "assets",
     "CSS",
     "HTML",
-    "GITHUB",
-    "GIT e GITHUB/Sem título"
+    "GITHUB"
   ]
 }
