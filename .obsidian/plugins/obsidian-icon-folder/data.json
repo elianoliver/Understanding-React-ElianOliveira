@@ -1,6 +1,6 @@
 {
   "settings": {
-    "migrated": true,
+    "migrated": 3,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
     "emojiStyle": "native",
@@ -20,7 +20,9 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconsBackgroundCheckEnabled": false
   },
   "CAP 0 - Cidade de Combates Desorganizados": "FarBookmark",
   "CAP 1 - Início do Ataque ao Avareza": "FarBookmark",

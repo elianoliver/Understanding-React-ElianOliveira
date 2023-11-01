@@ -100,7 +100,7 @@ Exemplos de nomes de variáveis válidos incluem `Numero_visitas`, `temp99` e `_
 ### Declarando Variáveis
 Você pode declarar uma variável de três formas:
 
-- Com a palavra chave `var`. Por exemplo, var `x = 42`. Esta sintaxe pode ser usada para declarar tanto variáveis locais como variáveis globais.
+- Com a palavra chave `var`. Por exemplo, `var x = 42`. Esta sintaxe pode ser usada para declarar tanto variáveis locais como variáveis globais.
   
 - Por simples adição de valor. Por exemplo, `x = 42`. Isso declara uma variável global. Essa declaração gera um aviso de advertência no JavaScript. <span style="color:red"> Você não deve usar essa variante. </span>
 
@@ -202,7 +202,7 @@ Com `let`, o hoisting ocorre, mas as variáveis não são inicializadas automati
 Uma constante é uma variável que não pode ser alterada após a sua inicialização. Ela é declarada usando a palavra-chave `const`. As regras de escopo para constantes são as mesmas que as de variáveis declaradas com `let`.
 
 - Não se pode alterar o valor de uma constante já atribuída.
-- Se a palavra-chave `const` for omitida, presume-se que o identificador represente uma variável.
+- Se a palavra-chave `const` for omitida, presume-se que o identificador represente uma var.
 - Não pode declarar uma constante com o mesmo nome de uma função ou variável no mesmo escopo.
 
 ```javascript
@@ -210,25 +210,45 @@ Uma constante é uma variável que não pode ser alterada após a sua inicializa
 const PI = 3.14;
 
 // Isso causará um erro
-function minhaFuncao() {}
 const minhaFuncao = 5;
+function minhaFuncao() {}
 ```
 
 ## ESTRUTURA DE DADOS E TIPOS
+Na programação, os dados são a essência de qualquer aplicação, e é fundamental compreender os tipos de dados que podemos utilizar. Eles desempenham um papel crucial na definição do comportamento do nosso código. Vamos explorar cinco tipos de dados comuns e dois tipos especiais de dados, juntamente com alguns operadores que nos ajudam a trabalhar com eles.
 ### Tipos de Dados
-Embora esses tipos de dados sejam relativamente poucos, eles oferecem funcionalidades poderosas para suas aplicações. Objetos e funções são elementos fundamentais que você pode usar para organizar e executar tarefas em seu código JavaScript.
+1. **string:** Uma string é um conjunto de caracteres alfanuméricos, normalmente delimitados por aspas simples (' '), duplas (" ") ou acento grave(\`\`). Por exemplo, 'isso é uma string' ou "123". Elas são usadas para representar texto.
+   
+2. **number:** O tipo de dado numérico é usado para representar valores numéricos, sejam eles inteiros (como 123) ou números decimais (como 12.5).
+   
+3. **boolean:** Este tipo de dado pode assumir apenas dois valores: `true` ou `false`. É frequentemente usado para controle de fluxo e tomada de decisões.
+   
+4. **Object:** O tipo "Object" é uma estrutura de dados complexa que pode conter várias propriedades e métodos. É usado para representar entidades complexas na programação.
+   
+5. **Function:** Funções são blocos de código que podem ser chamados para realizar tarefas específicas. Elas são essenciais para a modularização e reutilização do código.
 
-O padrão ECMAScript define sete tipos de dados, 6 são primitivos:
+#### Tipos de Dados Especiais
+6. **Null:** O valor `null` é um tipo especial que representa a ausência de valor ou a falta de um objeto. Pode ser atribuído a variáveis quando queremos explicitamente indicar que elas não têm valor.
+   
+7. **Undefined:** O valor `undefined` é atribuído a uma variável quando ela foi declarada, mas ainda não recebeu um valor. Também é retornado quando se tenta acessar uma propriedade inexistente de um objeto.
 
-| Tipos de dados                       | Descrição                                                                                                                                           |
-| ------------------------------------ |:--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Boolean                              | Valores: `true` e `false`                                                                                                                           |
-| null                                 | Uma palavra-chave que indica valor nulo. JavaScript é case-sensitive, então `null` não é o mesmo que `Null`, `NULL`, ou outra variação. |
-| undefined                            | Uma propriedade especial cujo valor é indefinido.                                                                                                   |
-| Number                               | `42`, `3.14159`                                                                                                                                     |
-| String                               | `"Howdy"`                                                                                                                                           |
-| Symbol (introduzido no ECMAScript 6) | Um tipo de dado cujas instâncias são únicas e imutáveis.                                                                                            |
-| Object (não primitivo)               | Objetos são recipientes para valores e funções. São elementos fundamentais na linguagem JavaScript.                                                 |
+#### Tipos de Objetos
+Além dos tipos de dados primitivos mencionados acima, existem objetos predefinidos em JavaScript que desempenham um papel significativo na linguagem (observe que os nomes começam com maiúsculo):
+
+1. **Object:** Representa um objeto genérico que pode conter propriedades e métodos.
+2. **Date:** Utilizado para manipular datas e horários.
+3. **Array:** Uma estrutura de dados que armazena uma coleção ordenada de elementos.
+4. **Number:** Este objeto fornece métodos para realizar operações matemáticas em números.
+5. **String:** O objeto String oferece métodos para trabalhar com strings, como concatenação, pesquisa e extração de substrings.
+6. **Boolean:** O objeto Boolean oferece métodos para trabalhar com valores booleanos.
+
+#### Operadores para testar tipos de dados
+Para verificar o tipo de dados de uma variável ou expressão, podemos usar dois operadores principais:
+
+1. **typeOf(  ):** O operador typeOf permite verificar o tipo de dado de uma variável. 
+   Por exemplo, `typeOf(123)` retornaria "number".
+ 
+4. **isNaN(  ):** O operador isNaN (Not a Number) é usado para verificar se um valor não é um número válido. Retorna `true` se o valor não for um número e `false` se for.
 
 ### Conversão de Tipos de Dados
 JavaScript é uma linguagem dinamicamente tipada. Isso significa que você não precisa especificar o tipo de dado de uma variável quando declará-la, e tipos de dados são convertidos automaticamente conforme a necessidade durante a execução do script. 
@@ -276,6 +296,17 @@ var numero = parseInt("42"); // Retorna o número inteiro 42
 
 ```javascript
 var decimal = parseFloat("3.14"); // Retorna o número de ponto flutuante 3.14
+var decimal = parseFloat("A"); // Retorna NaN (Not a Number)
+```
+
+4. **Number()**
+- Retorna números inteiros ou de pontos flutuantes, à depender do valor passado.
+- Ela é versátil e pode ser aplicada a diversos tipos de dados, incluindo strings.
+
+```javascript
+var numero = Number("42"); // Retorna o número inteiro 42
+var numero = Number("42.5"); // Retorna o número de ponto flutuante 42.5
+var numero = Number("A"); // Retorna NaN (Not a Number)
 ```
 
 3. **Conversão Alternativa com o Operador +**
@@ -283,11 +314,12 @@ Você também pode converter uma string em número usando o operador `+` (opera�
 
 ```javascript
 var resultado = +"42"; // Converte a string "42" em um número
+var resultado = +"A"; // Retorna NaN (Not a Number)
 ```
 
-- É importante notar que, no exemplo `"1.1" + "1.1"`, a concatenação de strings resulta em `"1.11.1"`.
+É importante notar que, no exemplo `"1.1" + "1.1"`, a concatenação de strings resulta em `"1.11.1"`.
   
-- Usando o operador `+`, como em `(+"1.1") + (+"1.1")`, você obtém a soma correta de `2.2`. Os parênteses são usados apenas para maior clareza no código e não são estritamente necessários.
+Usando o operador `+`, como em `(+"1.1") + (+"1.1")`, você obtém a soma correta de `2.2`. Os parênteses são usados apenas para maior clareza no código e não são estritamente necessários.
 
 
 ## LITERAIS
@@ -307,7 +339,7 @@ Imagine literais como blocos de construção básicos na linguagem JavaScript. E
 **Como os Literais São Usados?**
 - Quando você define o valor de uma variável diretamente em seu código, você está usando um literal. Por exemplo, `var idade = 30;` está usando o literal `30` para definir o valor da variável `idade`.
 
-Em resumo, literais são como os blocos de construção fundamentais que você usa para criar e representar valores em JavaScript. Eles são informações fixas que você insere diretamente em seu código para trabalhar com dados de forma direta e concreta.
+Em resumo, literais são como os blocos de construção fundamentais que você usa para criar e representar valores em JavaScript. Eles são informações fixas que você insere **diretamente** em seu código para trabalhar com dados de forma direta e concreta.
 
 ### Array Literal
 Um array literal é uma lista de zero ou mais expressões, representando elementos do array, inseridas entre colchetes `[]`.
@@ -322,7 +354,7 @@ Nesse exemplo, `coffees` é um array com três elementos e um comprimento de tr�
 
 Vamos resumir o tópico sobre "Vírgulas Extras em Array Literal":
 
-### Vírgulas Extras em Array Literal
+#### Vírgulas Extras em Array Literal
 Em um array literal, você não precisa especificar todos os elementos.
 
 Se você colocar duas vírgulas em uma linha, o array é criado com `undefined` para os elementos não especificados.
@@ -349,13 +381,10 @@ var myList = ["home", , "school", ]; //myList.length = 3 elementos
 ### Literais Boolean
 O tipo Boolean em JavaScript é usado para representar valores lógicos, que podem ser apenas dois: verdadeiro (`true`) e falso (`false`).
 
-- `true` representa uma afirmação verdadeira.
-- `false` representa uma afirmação falsa.
+- `true` ou `1` representa uma afirmação verdadeira.
+- `false` ou `0` representa uma afirmação falsa.
 
 É importante não confundir esses valores primitivos com o objeto Boolean, que é uma estrutura mais complexa usada para trabalhar com valores booleanos de maneira mais avançada. Portanto, ao lidar com verdadeiro ou falso simples, você utiliza os literais `true` e `false`.
-
-Resumindo o tópico sobre "Inteiros":
-
 ### Literais Inteiros
 Inteiros podem ser expressos em diferentes bases: 
 
@@ -478,11 +507,12 @@ Ao explorar expressões regex, você aprenderá sobre métodos como `exec()`, qu
 Entender expressões regex pode levar um tempo, mas é uma habilidade valiosa para qualquer programador que precise lidar com texto em seus projetos.
 
 ### String Literal
-Uma string literal é uma sequência de caracteres envolta por aspas duplas (`"`) ou aspas simples (`'`). Pode conter zero ou mais caracteres.
+Uma string literal é uma sequência de caracteres envolta por aspas simples (`''`), aspas duplas (`""`) ou acento grave (\`\`). Pode conter zero ou mais caracteres.
 
 Aqui estão alguns exemplos de strings literais:
   - `"foo"`: Uma string contendo a palavra "foo".
   - `'bar'`: Outra string contendo a palavra "bar".
+  - \`bar\`: Outra string contendo a palavra "bar".
   - `"1234"`: Uma string contendo os dígitos "1234".
   - `"uma linha \n outra linha"`: Uma string que inclui uma quebra de linha (`\n`) para criar duas linhas de texto.
   - `"John's cat"`: Uma string que contém o apóstrofo `'`.

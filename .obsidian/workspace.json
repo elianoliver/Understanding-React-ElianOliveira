@@ -4,23 +4,141 @@
     "type": "split",
     "children": [
       {
-        "id": "92ecb029276a8734",
+        "id": "7a6de8e43f0b016a",
         "type": "tabs",
         "children": [
           {
-            "id": "76e4a6978b630e75",
+            "id": "41537fbca7e44d14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
+                "file": "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60c6b532578bb8a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT/10 - FUNÇÕES.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4901bc50af0900a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/01 - BÁSICO.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "870ca03cc888d899",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/02 - SERVIDOR SIMPLES HTTP.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3dffa964fcdd3e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/03 - ROTAS PARA O SERVIDOR.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bec57acfdf374bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb54cd933f36582d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "baef31aa309ff7d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT/02.5 - LOCAIS PARA JS.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8823b48dfcd51802",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT/12 - OPERADORES LÓGICOS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5e17a2db307bb99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/17 - CURSOR.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -49,7 +167,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "form",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,12 +184,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 331.5
   },
   "right": {
     "id": "9cbc89da39f34f0a",
@@ -87,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
+                "file": "CSS/17 - CURSOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
+                "file": "CSS/17 - CURSOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md"
+                "file": "CSS/17 - CURSOR.md"
               }
             }
           },
@@ -170,51 +287,51 @@
       "canvas:Criar novo canvas": false
     }
   },
-  "active": "75b2a302bf0086e8",
+  "active": "a5e17a2db307bb99",
   "lastOpenFiles": [
-    "JAVASCRIPT/01 - INTRODUÇÃO.md",
-    "JAVASCRIPT/02 - COMEÇANDO COM JS.md",
-    "GITHUB/LISTA DE COMANDOS.md",
-    "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
-    "NODE/01 - BÁSICO.md",
-    "2023-09-30.md",
-    "JAVASCRIPT",
-    "HTML/6.1 ELEMENTOS DO FORM.md",
+    "CSS/07 - BOX MODEL.md",
+    "JAVASCRIPT/09 - MANIPULAÇÃO DE STRINGS.md",
+    "JAVASCRIPT/07 - ESTRUTURAS DE REPETIÇÃO.md",
     "HTML/6.2 TIPOS DE INPUTS.md",
-    "HTML/06 - FORMULARIOS.md",
+    "HTML/6.1 ELEMENTOS DO FORM.md",
     "CSS/15 - GRID.md",
-    "CSS/16 - MEDIA QUERIES.md",
-    "CSS/17 - CURSOR.md",
-    "CURSOR.md",
     "CSS/14 - FLEXBOX.md",
+    "JAVASCRIPT/13 - CONSOLE.md",
+    "JAVASCRIPT/12 - OPERADORES LÓGICOS.md",
+    "JAVASCRIPT/02.5 - LOCAIS PARA JS.md",
+    "assets/images/async defer.png",
+    "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
+    "JAVASCRIPT/10 - FUNÇÕES.md",
+    "JAVASCRIPT/11 - EVENT HANDLER.md",
+    "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
+    "JAVASCRIPT/04 - OPERAÇÕES ARITMÉTICAS.md",
+    "JAVASCRIPT/01 - INTRODUÇÃO.md",
+    "CSS/13 - VARIÁVEIS NO CSS.md",
+    "HTML/02 - TAGS BODY.md",
+    "HTML/01 - TAGS BÁSICAS.md",
+    "CSS/01 - BÁISCO CSS.md",
+    "JAVASCRIPT/05 - DOM.md",
+    "JAVASCRIPT/02 - COMEÇANDO COM JS.md",
+    "JAVASCRIPT/06 - ESTRUTURAS DE SELEÇÃO.md",
+    "NODE/04 - MÓDULO FS.md",
+    "NODE/03 - ROTAS PARA O SERVIDOR.md",
+    "NODE/02 - SERVIDOR SIMPLES HTTP.md",
+    "assets/images/dom.png",
+    "JAVASCRIPT",
     "assets/images/grid/layout-padrao-grid.png",
     "assets/images/flexbox/align-content-center.png",
     "assets/images/grid",
     "assets/images/flexbox",
     "assets/images",
-    "HTML/05 - IFRAME.md",
-    "GITHUB/GIT COM GITHUB.md",
     "NODE",
-    "Sem títuloqweqwe.md",
     "teste",
-    "HTML/04 - TAGS AUDIO VISUAIS.md",
-    "HTML/03 - TAGS TABELAS.md",
-    "HTML/02 - TAGS BODY.md",
-    "HTML/01 - TAGS BÁSICAS.md",
-    "GITHUB/GIT COM TOKEN.md",
-    "GITHUB/GIT COM SSH.md",
     "assets/images/flexbox/flex-grow.png",
     "assets/images/flexbox/align-self.png",
-    "2023-09-05.md",
     "Sem título.canvas",
     "assets/images/flexbox/flex-item-order.png",
     "assets/images/flexbox/align-content-space-around.png",
     "assets/images/flexbox/align-content-space-between.png",
     "assets/images/flexbox/align-content-stretch.png",
-    "assets/images/flexbox/align-content-flex-end.png",
-    "assets/images/flexbox/align-content-flex-start.png",
-    "CSS/02 - SELETORES CSS.md",
-    "CSS/03 - BACKGROUND.md",
     "assets",
     "CSS",
     "HTML",
