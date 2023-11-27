@@ -22,7 +22,9 @@
     },
     "iconInTabsEnabled": true,
     "iconInTitleEnabled": false,
-    "iconsBackgroundCheckEnabled": false
+    "iconsBackgroundCheckEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true
   },
   "CAP 0 - Cidade de Combates Desorganizados": "FarBookmark",
   "CAP 1 - Início do Ataque ao Avareza": "FarBookmark",

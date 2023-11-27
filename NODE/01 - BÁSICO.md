@@ -1,3 +1,5 @@
+Node.js é um ambiente de execução de código JavaScript do lado do servidor, projetado para facilitar o desenvolvimento de aplicativos escaláveis e de alto desempenho. Diferentemente do JavaScript tradicional, que é predominantemente usado no navegador para interações do lado do cliente, o Node.js permite que os desenvolvedores usem JavaScript para criar aplicativos do lado do servidor. Ele utiliza uma arquitetura orientada a eventos e é conhecido por sua eficiência em lidar com operações de entrada e saída assíncronas, tornando-o particularmente adequado para aplicações em tempo real, como chat, jogos online e transmissões ao vivo. Além disso, o Node.js possui um ecossistema robusto de módulos, graças ao seu gerenciador de pacotes npm, que facilita a incorporação de bibliotecas externas e acelera o processo de desenvolvimento. Essas características fazem do Node.js uma escolha popular entre os desenvolvedores para a construção de servidores web escaláveis e aplicações back-end modernas.
+
 Neste guia, vamos passar pelo processo de configuração de um projeto Node.js, começando com a criação do arquivo `package.json` usando o comando `npm init`.
 
 ## Passo 1: Criação do Projeto
@@ -37,10 +39,14 @@ app.get('/', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('O servidor está rodando na porta 3000.');
+  console.log('O servidor está rodando na porta http://localhost:3000.');
 });
 ```
 
+- Aqui criamos um servidor web simples usando o framework Express. Primeiramente, ele importa o módulo 'express' e o instancia em uma variável chamada 'app'. 
+- Em seguida, o código define uma rota para a raiz do servidor (expressa como '/'), respondendo a solicitações GET nessa rota com a mensagem 'Olá, Mundo!'. 
+- O método `app.listen(3000, callback)` é utilizado para fazer o servidor escutar na porta 3000. Quando o servidor está ativo e pronto para aceitar conexões, a função de retorno de chamada é acionada, exibindo a mensagem log no console. 
+- Assim, este código configura um servidor web básico que responde com 'Olá, Mundo!' quando acessado através do navegador ou de outra ferramenta que envia solicitações HTTP GET para a raiz do servidor.
 ## Passo 5: Execução do Projeto
 Agora que você tem um arquivo de código, você pode executar o seu projeto. Use o seguinte comando para iniciar o servidor:
 
@@ -52,8 +58,3 @@ Acesse `http://localhost:3000` em seu navegador e você verá a mensagem "Olá, 
 
 ## Passo 6: Utilização do package-lock.json
 Ao instalar pacotes, o npm automaticamente cria um arquivo chamado `package-lock.json`. Este arquivo registra a árvore exata de dependências e suas versões. Isso ajuda a garantir a consistência das versões em diferentes ambientes.
-
-## Conclusão
-Agora você tem um projeto Node.js básico configurado! Você pode continuar adicionando mais dependências, escrevendo seu código e personalizando seu projeto de acordo com suas necessidades.
-
-Lembre-se de sempre verificar o seu `package.json` para garantir que todas as dependências estejam listadas corretamente.

@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NODE/02 - SERVIDOR SIMPLES HTTP.md",
+                "file": "NODE/04 - SERVIDOR - HTTP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NODE/03 - ROTAS PARA O SERVIDOR.md",
+                "file": "NODE/05 - SERVIDOR - ROTAS HTTP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -130,7 +130,98 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/17 - CURSOR.md",
+                "file": "NODE/05 - SERVIDOR - ROTAS HTTP.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d57522da78a66412",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BOOTSTRAP/01 - INTRODUÇÃO.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65719944f1a1b49f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/00 - MÓDULO FS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e50a47adde92052c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/06 - SERVIDOR - EXPRESS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1b85981e139a040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/02 - MÓDULOS - CJS e ESM.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e953b572a03308b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/03 - MÓDULOS - PUBLICANDO.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed9e770500a257c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/01 - BÁSICO.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de29264d5de33296",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NODE/02 - MÓDULOS - CJS e ESM.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -138,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -204,7 +295,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/17 - CURSOR.md",
+                "file": "NODE/02 - MÓDULOS - CJS e ESM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +312,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/17 - CURSOR.md",
+                "file": "NODE/02 - MÓDULOS - CJS e ESM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -244,7 +335,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/17 - CURSOR.md"
+                "file": "NODE/02 - MÓDULOS - CJS e ESM.md"
               }
             }
           },
@@ -277,45 +368,46 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:Abrir visualização em gráfico": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
       "command-palette:Abrir paleta de comandos": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Abrir a troca rápida": false,
       "templates:Inserir modelo": false,
       "daily-notes:Abrir a nota de hoje": false,
-      "canvas:Criar novo canvas": false
+      "canvas:Criar novo canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "a5e17a2db307bb99",
+  "active": "de29264d5de33296",
   "lastOpenFiles": [
-    "CSS/07 - BOX MODEL.md",
-    "JAVASCRIPT/09 - MANIPULAÇÃO DE STRINGS.md",
-    "JAVASCRIPT/07 - ESTRUTURAS DE REPETIÇÃO.md",
-    "HTML/6.2 TIPOS DE INPUTS.md",
-    "HTML/6.1 ELEMENTOS DO FORM.md",
-    "CSS/15 - GRID.md",
-    "CSS/14 - FLEXBOX.md",
-    "JAVASCRIPT/13 - CONSOLE.md",
-    "JAVASCRIPT/12 - OPERADORES LÓGICOS.md",
-    "JAVASCRIPT/02.5 - LOCAIS PARA JS.md",
-    "assets/images/async defer.png",
+    "NODE/00 - MÓDULO FS.md",
+    "README.md",
+    "NODE/07 - NPM GUIA RÁPIDO.md",
+    "NODE/06 - SERVIDOR - EXPRESS.md",
+    "NODE/00 - REQUISIÇÕES - AJAX E FETCH.md",
+    "NODE/01 - BÁSICO.md",
+    "NODE/05 - SERVIDOR - ROTAS HTTP.md",
+    "NODE/04 - SERVIDOR - HTTP.md",
+    "NODE/03 - MÓDULOS - PUBLICANDO.md",
+    "NODE/02 - MÓDULOS - CJS e ESM.md",
+    "O que são os módulos do JavaScript.md",
     "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
-    "JAVASCRIPT/10 - FUNÇÕES.md",
+    "HTML/6.2 TIPOS DE INPUTS.md",
+    "HTML/05 - IFRAME.md",
+    "HTML/06 - FORMULARIOS.md",
+    "HTML/6.1 ELEMENTOS DO FORM.md",
     "JAVASCRIPT/11 - EVENT HANDLER.md",
-    "JAVASCRIPT/03 - GRAMÁTICA E TIPOS.md",
-    "JAVASCRIPT/04 - OPERAÇÕES ARITMÉTICAS.md",
-    "JAVASCRIPT/01 - INTRODUÇÃO.md",
-    "CSS/13 - VARIÁVEIS NO CSS.md",
+    "JAVASCRIPT/06 - ESTRUTURAS DE SELEÇÃO.md",
+    "JAVASCRIPT/13 - CONSOLE.md",
+    "HTML/04 - TAGS AUDIO VISUAIS.md",
+    "HTML/03 - TAGS TABELAS.md",
     "HTML/02 - TAGS BODY.md",
     "HTML/01 - TAGS BÁSICAS.md",
-    "CSS/01 - BÁISCO CSS.md",
-    "JAVASCRIPT/05 - DOM.md",
-    "JAVASCRIPT/02 - COMEÇANDO COM JS.md",
-    "JAVASCRIPT/06 - ESTRUTURAS DE SELEÇÃO.md",
-    "NODE/04 - MÓDULO FS.md",
-    "NODE/03 - ROTAS PARA O SERVIDOR.md",
-    "NODE/02 - SERVIDOR SIMPLES HTTP.md",
+    "CSS/17 - CURSOR.md",
+    "BOOTSTRAP/02.md",
+    "BOOTSTRAP/01 - INTRODUÇÃO.md",
+    "BOOTSTRAP",
+    "assets/images/async defer.png",
     "assets/images/dom.png",
     "JAVASCRIPT",
     "assets/images/grid/layout-padrao-grid.png",
@@ -334,7 +426,6 @@
     "assets/images/flexbox/align-content-stretch.png",
     "assets",
     "CSS",
-    "HTML",
-    "GITHUB"
+    "HTML"
   ]
 }

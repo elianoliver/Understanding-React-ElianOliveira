@@ -30,7 +30,7 @@ git config --global user.email "Seu endereço de e-mail"
 ```
 ou
 ```shel
-git config --local user.email you@example.com
+git config --local user.email "you@example.com"
 git config --local user.name "Your Name"
 ``` 
  

@@ -84,33 +84,38 @@ servidor.listen(porta, host, () => {
 Resumindo, este código cria um servidor web que responde a diferentes rotas com mensagens HTML correspondentes. Por exemplo, ao acessar "http://localhost:3000/", você verá a mensagem "Página principal", e ao acessar "http://localhost:3000/contato", verá "Contato". O servidor pode ser configurado para responder a diferentes rotas e fornecer conteúdo personalizado conforme necessário.
 
 ## Entendendo um Servidor Web com Análise de Parâmetros de Consulta em Node.js
-Neste exemplo, exploramos um código que demonstra a criação de um servidor web em Node.js que tem a capacidade de analisar e processar os parâmetros de consulta presentes em uma URL de solicitação. A diferença fundamental entre este método e o método anterior, que não utiliza parâmetros na URL, é a capacidade de receber dados dinâmicos e específicos do cliente por meio de parâmetros de consulta. Isso possibilita a criação de aplicativos web interativos, onde as informações podem ser transmitidas e processadas de acordo com a URL acessada. Vamos agora detalhar passo a passo como esse servidor funciona e como ele processa os parâmetros da consulta, proporcionando uma experiência mais personalizada para o usuário.
+Neste exemplo, exploramos um código que demonstra a criação de um servidor web em Node.js que tem a capacidade de analisar e processar os parâmetros de consulta presentes em uma URL de solicitação. 
+A diferença fundamental entre este método e o método anterior, que não utiliza parâmetros na URL, é a capacidade de receber dados dinâmicos e específicos do cliente por meio de parâmetros de consulta. Isso possibilita a criação de aplicativos web interativos, onde as informações podem ser transmitidas e processadas de acordo com a URL acessada. Vamos agora detalhar passo a passo como esse servidor funciona e como ele processa os parâmetros da consulta, proporcionando uma experiência mais personalizada para o usuário.
 
 Neste exemplo, exploraremos um código que cria um servidor web simples em Node.js usando os módulos `http` e `url`. Esse servidor é capaz de analisar os parâmetros da consulta (query parameters) de uma URL e exibi-los em uma resposta HTML.
 
 ```javascript
 const http = require('http');
 const url = require('url');
-const porta = 3000;
+const porta = 3001;
 const host = 'localhost';
-
+  
 const servidor = http.createServer((req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/html'});
 
-    // Escreve a URL da solicitação na resposta
-    res.write(req.url);
+    res.writeHead(200, {'Content-Type': 'text/html ;charset=utf-8'});
 
-    // Analisa os parâmetros da consulta e os escreve na resposta
-    const p = url.parse(req.url, true).query;
-    res.write('<br/>' + p.nome);
-    res.write('<br/>' + p.sobrenome);
+    // Escreve uma dica para o usuário
+    res.write(`<p>Modifique a URL para http://${host}:${porta}<b>/?nome=elian&sobrenome=oliveira</b><p><br/>`);
 
-    // Finaliza a resposta
-    res.end();
+    // Escreve a URL da solicitação na resposta
+    res.write("URL da soliscitação: " + req.url);
+
+    // Analisa os parâmetros da consulta e os escreve na resposta
+    const p = url.parse(req.url, true).query;
+    res.write('<br/>Nome: ' + p.nome);
+    res.write('<br/>Sobrenome: ' + p.sobrenome);
+  
+    // Finaliza a resposta
+    res.end();
 });
 
 servidor.listen(porta, host, () => {
-    console.log(`Servidor rodando em http://${host}:${porta}`);
+    console.log(`Servidor rodando em http://${host}:${porta}`);
 });
 ```
 
@@ -132,24 +137,23 @@ const host = 'localhost';
 
 ```javascript
 const servidor = http.createServer((req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.writeHead(200, {'Content-Type': 'text/html ;charset=utf-8'});
 ```
 
 - Criamos o servidor web utilizando o método `createServer` do módulo `http`. Passamos uma função de retorno de chamada que será executada sempre que o servidor receber uma solicitação HTTP. Esta função recebe `req` (a solicitação) e `res` (a resposta).
 
-- Configuramos a resposta com um código de status HTTP 200 (OK) e um cabeçalho `'Content-Type'` definido como `'text/html'`, indicando que a resposta conterá conteúdo HTML.
+- Configuramos a resposta com um código de status HTTP 200 (OK) e um cabeçalho `'Content-Type'` definido como `'text/html'`, indicando que a resposta conterá conteúdo HTML. Além disso, setamos o `charset=utf-8`, para que seja possível reconhecer caracteres como ç e ã.
 
 #### Passo 3: Análise da URL e Resposta
 
 ```javascript
-    res.write(req.url);
-    
-    const p = url.parse(req.url, true).query;
-    
-    res.write('<br/>' + p.nome);
-    res.write('<br/>' + p.sobrenome);
-    
-    res.end();
+// Escreve a URL da solicitação na resposta
+res.write("URL da soliscitação: " + req.url);  
+
+// Analisa os parâmetros da consulta e os escreve na resposta
+const p = url.parse(req.url, true).query;
+res.write('<br/>Nome: ' + p.nome);
+res.write('<br/>Sobrenome: ' + p.sobrenome);
 ```
 
 - A URL da solicitação é escrita na resposta usando `res.write(req.url)`. Isso permite ver a URL na resposta. Por exemplo, se a URL for "/?nome=elian&sobrenome=oliveira", o código anterior exibirá exatamente essa URL na resposta.

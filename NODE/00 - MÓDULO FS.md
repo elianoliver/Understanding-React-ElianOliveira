@@ -43,7 +43,7 @@ Aqui, criamos um servidor HTTP usando o método `createServer` do módulo `http`
 
 ```javascript
 server.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+    console.log(`Server running on port http://localhost:${port}`);
 });
 ```
 
@@ -85,7 +85,7 @@ Neste passo, criamos um servidor HTTP utilizando o método `createServer` do mó
 
 ```javascript
 server.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+    console.log(`Server running on port http://localhost:${port}`);
 });
 ```
 
