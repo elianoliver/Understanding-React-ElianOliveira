@@ -4,8 +4,6 @@ Neste artigo vamos revisar um conceito importante no dia a dia de desenvolvimen
 
 Os conceitos de módulo e modularidade são parte importante do desenvolvimento com JavaScript, e quando temos mais de uma forma de fazer algo em programação - como é o caso aqui - é ainda mais importante que a gente entenda melhor os detalhes.
 
-Para facilitar sua leitura, fiz esse sumário dos conteúdos que serão explorados ao longo deste artigo:
-
 - [[#O que são os módulos do JavaScript?]]
 - [[#Por que utilizamos módulos?]]
 - [[#Utilização de módulos no JavaScript]]
@@ -15,7 +13,6 @@ Para facilitar sua leitura, fiz esse sumário dos conteúdos que serão explorad
     - Pontos importantes sobre o uso do ESM
 - [[#Qual devo usar, afinal?]]
 - [[#Conclusão]]
-
 ## O que são os módulos do JavaScript?
 
 O conceito de modularidade é “esconder” detalhes de implementação das partes que compõem uma aplicação, e assim organizar e separar melhor o código. O objetivo de modularizar o código é permitir que aplicações maiores sejam montadas de forma “modular”; ou seja, através de várias partes independentes.

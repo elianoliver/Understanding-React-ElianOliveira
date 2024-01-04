@@ -4,232 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "7a6de8e43f0b016a",
+        "id": "e9e899ac9d6cce90",
         "type": "tabs",
         "children": [
           {
-            "id": "41537fbca7e44d14",
+            "id": "ad7c057e78cf2fce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60c6b532578bb8a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVASCRIPT/10 - FUNÇÕES.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4901bc50af0900a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/01 - BÁSICO.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "870ca03cc888d899",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/04 - SERVIDOR - HTTP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3dffa964fcdd3e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/05 - SERVIDOR - ROTAS HTTP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bec57acfdf374bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb54cd933f36582d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "baef31aa309ff7d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVASCRIPT/02.5 - LOCAIS PARA JS.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8823b48dfcd51802",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JAVASCRIPT/12 - OPERADORES LÓGICOS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5e17a2db307bb99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/05 - SERVIDOR - ROTAS HTTP.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d57522da78a66412",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BOOTSTRAP/01 - INTRODUÇÃO.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "65719944f1a1b49f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/00 - MÓDULO FS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e50a47adde92052c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/06 - SERVIDOR - EXPRESS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1b85981e139a040",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/02 - MÓDULOS - CJS e ESM.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e953b572a03308b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/03 - MÓDULOS - PUBLICANDO.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed9e770500a257c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/01 - BÁSICO.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de29264d5de33296",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NODE/02 - MÓDULOS - CJS e ESM.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "NODE/MVC.canvas",
+                "viewState": {
+                  "x": 3034.226001120349,
+                  "y": -1040.1477206214888,
+                  "zoom": -1.0428731833601546
+                }
               }
             }
           }
-        ],
-        "currentTab": 16
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,12 +67,21 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "e6087e294fb3c765",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 310.5
   },
   "right": {
     "id": "9cbc89da39f34f0a",
@@ -295,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NODE/02 - MÓDULOS - CJS e ESM.md",
+                "file": "NODE/MVC.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NODE/02 - MÓDULOS - CJS e ESM.md",
+                "file": "NODE/MVC.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -335,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NODE/02 - MÓDULOS - CJS e ESM.md"
+                "file": "NODE/MVC.canvas"
               }
             }
           },
@@ -353,7 +155,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -373,39 +177,44 @@
       "templates:Inserir modelo": false,
       "daily-notes:Abrir a nota de hoje": false,
       "canvas:Criar novo canvas": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "de29264d5de33296",
+  "active": "ad7c057e78cf2fce",
   "lastOpenFiles": [
-    "NODE/00 - MÓDULO FS.md",
-    "README.md",
-    "NODE/07 - NPM GUIA RÁPIDO.md",
-    "NODE/06 - SERVIDOR - EXPRESS.md",
-    "NODE/00 - REQUISIÇÕES - AJAX E FETCH.md",
-    "NODE/01 - BÁSICO.md",
+    "NODE/07 - MVC.md",
     "NODE/05 - SERVIDOR - ROTAS HTTP.md",
     "NODE/04 - SERVIDOR - HTTP.md",
     "NODE/03 - MÓDULOS - PUBLICANDO.md",
     "NODE/02 - MÓDULOS - CJS e ESM.md",
-    "O que são os módulos do JavaScript.md",
-    "JAVASCRIPT/08 - ESTRUTURAS DE DADOS.md",
-    "HTML/6.2 TIPOS DE INPUTS.md",
-    "HTML/05 - IFRAME.md",
-    "HTML/06 - FORMULARIOS.md",
-    "HTML/6.1 ELEMENTOS DO FORM.md",
-    "JAVASCRIPT/11 - EVENT HANDLER.md",
-    "JAVASCRIPT/06 - ESTRUTURAS DE SELEÇÃO.md",
-    "JAVASCRIPT/13 - CONSOLE.md",
-    "HTML/04 - TAGS AUDIO VISUAIS.md",
-    "HTML/03 - TAGS TABELAS.md",
-    "HTML/02 - TAGS BODY.md",
+    "NODE/01 - BÁSICO.md",
+    "NODE/00 - MÓDULO FS.md",
+    "GITHUB/GIT COM SSH.md",
+    "GITHUB/LISTA DE COMANDOS.md",
+    "NODE/00 - REQUISIÇÕES - AJAX E FETCH.md",
+    "NODE/00 - NPM GUIA RÁPIDO.md",
+    "GITHUB/GIT COM GITHUB.md",
+    "GITHUB/GIT COM TOKEN.md",
     "HTML/01 - TAGS BÁSICAS.md",
-    "CSS/17 - CURSOR.md",
+    "HTML/02 - TAGS BODY.md",
+    "HTML/03 - TAGS TABELAS.md",
+    "HTML/04 - TAGS AUDIO VISUAIS.md",
+    "HTML/06 - FORMULARIOS.md",
+    "HTML/6.2 TIPOS DE INPUTS.md",
+    "HTML/6.1 ELEMENTOS DO FORM.md",
+    "NODE/MVC.canvas",
+    "NODE/06 - SERVIDOR - EXPRESS.md",
+    "Sem título.canvas",
+    "CSS/14 - FLEXBOX.md",
+    "CSS/02 - SELETORES CSS.md",
+    "CSS/01 - BÁISCO CSS.md",
+    "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
     "BOOTSTRAP/02.md",
-    "BOOTSTRAP/01 - INTRODUÇÃO.md",
+    "BOOTSTRAP/img.jpg",
     "BOOTSTRAP",
     "assets/images/async defer.png",
     "assets/images/dom.png",
@@ -419,11 +228,9 @@
     "teste",
     "assets/images/flexbox/flex-grow.png",
     "assets/images/flexbox/align-self.png",
-    "Sem título.canvas",
     "assets/images/flexbox/flex-item-order.png",
     "assets/images/flexbox/align-content-space-around.png",
     "assets/images/flexbox/align-content-space-between.png",
-    "assets/images/flexbox/align-content-stretch.png",
     "assets",
     "CSS",
     "HTML"
