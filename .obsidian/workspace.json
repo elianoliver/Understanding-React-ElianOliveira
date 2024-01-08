@@ -11,14 +11,12 @@
             "id": "ad7c057e78cf2fce",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "NODE/MVC.canvas",
-                "viewState": {
-                  "x": 3034.226001120349,
-                  "y": -1040.1477206214888,
-                  "zoom": -1.0428731833601546
-                }
+                "file": "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -69,7 +67,7 @@
             }
           },
           {
-            "id": "e6087e294fb3c765",
+            "id": "21f375eae2456171",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 330.5
   },
   "right": {
     "id": "9cbc89da39f34f0a",
@@ -97,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NODE/MVC.canvas",
+                "file": "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NODE/MVC.canvas",
+                "file": "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NODE/MVC.canvas"
+                "file": "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md"
               }
             }
           },
@@ -180,24 +178,30 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-importer:Open Importer": false
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
   "active": "ad7c057e78cf2fce",
   "lastOpenFiles": [
+    "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .urlencoded.md",
+    "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - 2 em 1.md",
+    "NODE/MÓDULOS/00 - MÓDULO FS.md",
+    "NODE/MÓDULOS/02 - MÓDULOS - CJS e ESM.md",
+    "NODE/MÓDULOS/03 - MÓDULOS - PUBLICANDO.md",
+    "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
+    "NODE/MÓDULOS",
+    "NODE/MÓDULOS/BODY-PARSER",
+    "NODE/MVC2.md",
     "NODE/07 - MVC.md",
+    "GITHUB/GIT COM GITHUB.md",
+    "NODE/MVC.canvas",
     "NODE/05 - SERVIDOR - ROTAS HTTP.md",
     "NODE/04 - SERVIDOR - HTTP.md",
-    "NODE/03 - MÓDULOS - PUBLICANDO.md",
-    "NODE/02 - MÓDULOS - CJS e ESM.md",
     "NODE/01 - BÁSICO.md",
-    "NODE/00 - MÓDULO FS.md",
     "GITHUB/GIT COM SSH.md",
     "GITHUB/LISTA DE COMANDOS.md",
     "NODE/00 - REQUISIÇÕES - AJAX E FETCH.md",
     "NODE/00 - NPM GUIA RÁPIDO.md",
-    "GITHUB/GIT COM GITHUB.md",
     "GITHUB/GIT COM TOKEN.md",
     "HTML/01 - TAGS BÁSICAS.md",
     "HTML/02 - TAGS BODY.md",
@@ -206,14 +210,9 @@
     "HTML/06 - FORMULARIOS.md",
     "HTML/6.2 TIPOS DE INPUTS.md",
     "HTML/6.1 ELEMENTOS DO FORM.md",
-    "NODE/MVC.canvas",
     "NODE/06 - SERVIDOR - EXPRESS.md",
     "Sem título.canvas",
     "CSS/14 - FLEXBOX.md",
-    "CSS/02 - SELETORES CSS.md",
-    "CSS/01 - BÁISCO CSS.md",
-    "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
-    "BOOTSTRAP/02.md",
     "BOOTSTRAP/img.jpg",
     "BOOTSTRAP",
     "assets/images/async defer.png",
@@ -231,8 +230,6 @@
     "assets/images/flexbox/flex-item-order.png",
     "assets/images/flexbox/align-content-space-around.png",
     "assets/images/flexbox/align-content-space-between.png",
-    "assets",
-    "CSS",
-    "HTML"
+    "assets"
   ]
 }
