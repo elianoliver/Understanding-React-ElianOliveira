@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
+                "file": "TYPESCRIPT/00 - TYPE ANNOTATIONS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "21f375eae2456171",
+            "id": "09e1600e46188bdd",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 236.5
   },
   "right": {
     "id": "9cbc89da39f34f0a",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
+                "file": "TYPESCRIPT/00 - TYPE ANNOTATIONS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
+                "file": "TYPESCRIPT/00 - TYPE ANNOTATIONS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md"
+                "file": "TYPESCRIPT/00 - TYPE ANNOTATIONS.md"
               }
             }
           },
@@ -175,44 +175,45 @@
       "templates:Inserir modelo": false,
       "daily-notes:Abrir a nota de hoje": false,
       "canvas:Criar novo canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
   "active": "ad7c057e78cf2fce",
   "lastOpenFiles": [
+    "TYPESCRIPT/00 - TIPOS DE DADOS.md",
+    "TYPESCRIPT/00 - INSTALANDO TYPESCRIPT.md",
+    "TYPESCRIPT/00 - TYPE ANNOTATIONS.md",
+    "HTML/6.1 ELEMENTOS DO FORM.md",
+    "TYPESCRIPT",
+    "HTML/06 - FORMULARIOS.md",
+    "CSS/14 - FLEXBOX.md",
+    "GITHUB/GIT COM GITHUB.md",
+    "CSS/15 - GRID.md",
+    "CSS/04 - TEXTO.md",
+    "CSS/03 - BACKGROUND.md",
+    "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
+    "CSS/02 - SELETORES CSS.md",
+    "CSS/01 - BÁISCO CSS.md",
+    "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
     "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .urlencoded.md",
     "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - 2 em 1.md",
     "NODE/MÓDULOS/00 - MÓDULO FS.md",
     "NODE/MÓDULOS/02 - MÓDULOS - CJS e ESM.md",
     "NODE/MÓDULOS/03 - MÓDULOS - PUBLICANDO.md",
-    "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
     "NODE/MÓDULOS",
     "NODE/MÓDULOS/BODY-PARSER",
     "NODE/MVC2.md",
     "NODE/07 - MVC.md",
-    "GITHUB/GIT COM GITHUB.md",
     "NODE/MVC.canvas",
     "NODE/05 - SERVIDOR - ROTAS HTTP.md",
     "NODE/04 - SERVIDOR - HTTP.md",
     "NODE/01 - BÁSICO.md",
     "GITHUB/GIT COM SSH.md",
     "GITHUB/LISTA DE COMANDOS.md",
-    "NODE/00 - REQUISIÇÕES - AJAX E FETCH.md",
-    "NODE/00 - NPM GUIA RÁPIDO.md",
-    "GITHUB/GIT COM TOKEN.md",
-    "HTML/01 - TAGS BÁSICAS.md",
-    "HTML/02 - TAGS BODY.md",
-    "HTML/03 - TAGS TABELAS.md",
-    "HTML/04 - TAGS AUDIO VISUAIS.md",
-    "HTML/06 - FORMULARIOS.md",
-    "HTML/6.2 TIPOS DE INPUTS.md",
-    "HTML/6.1 ELEMENTOS DO FORM.md",
-    "NODE/06 - SERVIDOR - EXPRESS.md",
     "Sem título.canvas",
-    "CSS/14 - FLEXBOX.md",
     "BOOTSTRAP/img.jpg",
     "BOOTSTRAP",
     "assets/images/async defer.png",
@@ -229,7 +230,6 @@
     "assets/images/flexbox/align-self.png",
     "assets/images/flexbox/flex-item-order.png",
     "assets/images/flexbox/align-content-space-around.png",
-    "assets/images/flexbox/align-content-space-between.png",
-    "assets"
+    "assets/images/flexbox/align-content-space-between.png"
   ]
 }
