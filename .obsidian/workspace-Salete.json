@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REACT/09 - EVENTOS EM REACT.md",
+                "file": "TYPESCRIPT/00 - INSTALANDO TYPESCRIPT.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "eb8bf7e52f530374",
+            "id": "09e1600e46188bdd",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 236.5
   },
   "right": {
     "id": "9cbc89da39f34f0a",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REACT/09 - EVENTOS EM REACT.md",
+                "file": "TYPESCRIPT/00 - INSTALANDO TYPESCRIPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "REACT/09 - EVENTOS EM REACT.md",
+                "file": "TYPESCRIPT/00 - INSTALANDO TYPESCRIPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "REACT/09 - EVENTOS EM REACT.md"
+                "file": "TYPESCRIPT/00 - INSTALANDO TYPESCRIPT.md"
               }
             }
           },
@@ -183,40 +183,36 @@
   },
   "active": "ad7c057e78cf2fce",
   "lastOpenFiles": [
-    "REACT/08 - STATE NO REACT.md",
-    "REACT/09 - EVENTOS EM REACT.md",
-    "REACT/07 - COMO FUNCIONA A RENDERIZAÇÃO DE COMPONENTES NO REACT.md",
-    "REACT/06 - IMPORTANDO CSS.md",
-    "REACT/05 - ENVIANDO FUNÇÕES COMO PROPS.md",
-    "REACT/04 - ENVIANDO ATRIBUTOS COMO PROPS.md",
-    "REACT/03 - CRIANDO COMPONENTES.md",
-    "REACT/02 - EXPRESSÕES EM JSX E IMAGENS.md",
-    "REACT/01 - ESTRUTURA DOS ARQUIVOS.md",
-    "REACT/00 - INICIANDO.md",
-    "Pasted image 20240224154121.png",
-    "NEXTJS/00 - INTRODUÇÃO.md",
-    "00 - CONCEITOS",
-    "REACT",
-    "NEXTJS/00 - ESTRUTURA DE PASTAS.md",
-    "JAVASCRIPT/09 - MANIPULAÇÃO DE STRINGS.md",
-    "JAVASCRIPT/10 - FUNÇÕES.md",
-    "JAVASCRIPT/11 - EVENT HANDLER.md",
-    "JAVASCRIPT/12 - OPERADORES LÓGICOS.md",
-    "TYPESCRIPT/00 - TYPE ANNOTATIONS.md",
     "TYPESCRIPT/00 - TIPOS DE DADOS.md",
+    "TYPESCRIPT/00 - TYPE ANNOTATIONS.md",
     "TYPESCRIPT/00 - INSTALANDO TYPESCRIPT.md",
-    "NODE/06 - SERVIDOR - EXPRESS.md",
-    "NODE/07 - MVC.md",
-    "NODE/MVC.canvas",
-    "NODE/MVC2.md",
-    "NEXTJS",
     "HTML/6.1 ELEMENTOS DO FORM.md",
     "TYPESCRIPT",
     "HTML/06 - FORMULARIOS.md",
     "CSS/14 - FLEXBOX.md",
     "GITHUB/GIT COM GITHUB.md",
+    "CSS/15 - GRID.md",
+    "CSS/04 - TEXTO.md",
+    "CSS/03 - BACKGROUND.md",
+    "CSS/2.5 - PRÉ PROCESSADORES CSS.md",
+    "CSS/02 - SELETORES CSS.md",
+    "CSS/01 - BÁISCO CSS.md",
+    "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .json.md",
+    "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - .urlencoded.md",
+    "NODE/MÓDULOS/00 - MÓDULO BODY-PARSER - 2 em 1.md",
+    "NODE/MÓDULOS/00 - MÓDULO FS.md",
+    "NODE/MÓDULOS/02 - MÓDULOS - CJS e ESM.md",
+    "NODE/MÓDULOS/03 - MÓDULOS - PUBLICANDO.md",
     "NODE/MÓDULOS",
     "NODE/MÓDULOS/BODY-PARSER",
+    "NODE/MVC2.md",
+    "NODE/07 - MVC.md",
+    "NODE/MVC.canvas",
+    "NODE/05 - SERVIDOR - ROTAS HTTP.md",
+    "NODE/04 - SERVIDOR - HTTP.md",
+    "NODE/01 - BÁSICO.md",
+    "GITHUB/GIT COM SSH.md",
+    "GITHUB/LISTA DE COMANDOS.md",
     "Sem título.canvas",
     "BOOTSTRAP/img.jpg",
     "BOOTSTRAP",
@@ -227,9 +223,13 @@
     "assets/images/flexbox/align-content-center.png",
     "assets/images/grid",
     "assets/images/flexbox",
+    "assets/images",
+    "NODE",
+    "teste",
     "assets/images/flexbox/flex-grow.png",
     "assets/images/flexbox/align-self.png",
     "assets/images/flexbox/flex-item-order.png",
-    "assets/images/flexbox/align-content-space-around.png"
+    "assets/images/flexbox/align-content-space-around.png",
+    "assets/images/flexbox/align-content-space-between.png"
   ]
 }
