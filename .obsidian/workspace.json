@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REACT/09 - EVENTOS EM REACT.md",
+                "file": "REACT/11 - LISTAS E MAP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REACT/09 - EVENTOS EM REACT.md",
+                "file": "REACT/11 - LISTAS E MAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "REACT/09 - EVENTOS EM REACT.md",
+                "file": "REACT/11 - LISTAS E MAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "REACT/09 - EVENTOS EM REACT.md"
+                "file": "REACT/11 - LISTAS E MAP.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,8 +183,10 @@
   },
   "active": "ad7c057e78cf2fce",
   "lastOpenFiles": [
-    "REACT/08 - STATE NO REACT.md",
+    "REACT/10 - RENDERIZAÇÃO CONDICIONAL.md",
+    "REACT/11 - LISTAS E MAP.md",
     "REACT/09 - EVENTOS EM REACT.md",
+    "REACT/08 - STATE NO REACT.md",
     "REACT/07 - COMO FUNCIONA A RENDERIZAÇÃO DE COMPONENTES NO REACT.md",
     "REACT/06 - IMPORTANDO CSS.md",
     "REACT/05 - ENVIANDO FUNÇÕES COMO PROPS.md",
@@ -213,8 +215,6 @@
     "HTML/6.1 ELEMENTOS DO FORM.md",
     "TYPESCRIPT",
     "HTML/06 - FORMULARIOS.md",
-    "CSS/14 - FLEXBOX.md",
-    "GITHUB/GIT COM GITHUB.md",
     "NODE/MÓDULOS",
     "NODE/MÓDULOS/BODY-PARSER",
     "Sem título.canvas",
